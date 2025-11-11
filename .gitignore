@@ -1,0 +1,46 @@
+
+```gitignore
+# Build output
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Maven
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.properties
+
+# IDEs
+### IntelliJ IDEA ###
+.idea/
+*.iml
+*.ipr
+*.iws
+
+### VS Code ###
+.vscode/
+
+### Eclipse ###
+.project
+.classpath
+.settings/
+.apt_generated/
+.springBeans/
+.sts4-cache/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Environment / secrets (add if you ever use them)
+.env
+.env.*
